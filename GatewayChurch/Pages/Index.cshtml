@@ -7,30 +7,29 @@
 <div class="header_section">
     <div class="container-fluid header_main">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="logo" href="index.html">
+            <a class="logo" href="#home">
                 <img src="images/oasis.png" class="logo" />
-            </a>            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="" id="spacer"></div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="#about_us">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Sermons</a>
+                        <a class="nav-link" href="#community">Community</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="features.html">Community</a>
+                        <a class="nav-link" href="#gallery">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
 
                     <li class="nav-item">
                         <a class="nav-link" href="#"><img src="images/serach-icon.png"></a>
@@ -40,7 +39,7 @@
         </nav>
     </div>
     <!-- banner section start -->
-    <div class="container-fluid">
+    <div id="home" class="container-fluid">
         <div class="banner_section layout_padding">
             <h1 class="banner_taital">Gatewaty <br>Oasis</h1>
             <div>
@@ -49,7 +48,7 @@
                         <div class="image_main">
                             <div class="container">
                                 <img src="images/PHOTO-2023-08-20-19-02-21.jpg" class="">
-                          </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -65,7 +64,7 @@
     <!-- banner section end -->
 </div>
 <!-- header section end -->
-<div class="container">
+<div id="about_us" class="container">
     <div class="touch_setion">
         <div class="box_main">
             <div class="image_2 active">
@@ -85,7 +84,7 @@
     </div>
 </div>
 <!-- about section start -->
-<div class="about_section layout_padding">
+<div id="community" class="about_section layout_padding">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-sm-12">
@@ -155,20 +154,21 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-sm-12">
-                <div><img class="bowling_img"  src="images/IMG_7811.jpg"></div>
+                <div><img class="bowling_img" src="images/IMG_7811.jpg"></div>
                 <div class="like_icon"><img src="images/like-icon.png"></div>
-                <h2 class="most_text"> Community <br>
-                <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
-                <div class="social_icon_main">
-                    <div class="social_icon">
-                        <ul>
-                            <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                            <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                            <li><a href="#"><img src="images/instagram-icon.png"></a></li>
-                        </ul>
+                <h2 class="most_text">
+                    Community <br>
+                    <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                    <div class="social_icon_main">
+                        <div class="social_icon">
+                            <ul>
+                                <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                                <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                                <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                            </ul>
+                        </div>
+                        <div class="read_bt"><a href="#">Read More</a></div>
                     </div>
-                    <div class="read_bt"><a href="#">Read More</a></div>
-                </div>
             </div>
         </div>
     </div>
@@ -222,9 +222,8 @@
     </div>
 </div>
  *@<!-- recent section end -->
-
 <!-- contact section start -->
-<div class="contact_section layout_padding">
+<div id="gallery" class="contact_section layout_padding">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -251,15 +250,15 @@
                     </div>
                 </div>
             </div>
-           @*  <div class="col-md-6">
-                <div class="mail_section">
-                    <h1 class="contact_taital">Contact us</h1>
-                    <input type="" class="email_text" placeholder="Name" name="Name">
-                    <input type="" class="email_text" placeholder="Phone" name="Phone">
-                    <input type="" class="email_text" placeholder="Email" name="Email">
-                    <textarea class="massage_text" placeholder="Message" rows="5" id="comment" name="Message"></textarea>
-                    <div class="send_bt"><a href="#">send</a></div>
-                </div>
+            @*  <div class="col-md-6">
+            <div class="mail_section">
+            <h1 class="contact_taital">Contact us</h1>
+            <input type="" class="email_text" placeholder="Name" name="Name">
+            <input type="" class="email_text" placeholder="Phone" name="Phone">
+            <input type="" class="email_text" placeholder="Email" name="Email">
+            <textarea class="massage_text" placeholder="Message" rows="5" id="comment" name="Message"></textarea>
+            <div class="send_bt"><a href="#">send</a></div>
+            </div>
             </div> *@
         </div>
     </div>
