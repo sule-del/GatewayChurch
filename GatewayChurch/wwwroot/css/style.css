@@ -279,7 +279,7 @@ button {
     width: 100%;
     float: left;
     font-size: 80px;
-    color: #fdfdfe;
+    color: #1d2fa2;
     text-align: center;
     text-transform: uppercase;
 }
@@ -904,6 +904,79 @@ button {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.slider5_img {
+    width: 100%;
+    float: left;
+    background-image: url('../images/PHOTO-2024-01-10-21-12-28 (1).jpg');
+    height: 488px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider6_img {
+    width: 100%;
+    float: left;
+    background-image: url('../images/teach.jpg');
+    height: 488px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider7_img {
+    width: 100%;
+    float: left;
+    background-image: url('../images/ded.png');
+    height: 488px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider8_img {
+    width: 100%;
+    float: left;
+    background-image: url('../images/Picture4.jpg');
+    height: 488px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider9_img {
+    width: 100%;
+    float: left;
+    background-image: url('../images/PHOTO-2024-01-10-21-09-31 (1).jpg');
+    height: 488px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider10_img {
+    width: 100%;
+    float: left;
+    background-image: url('../images/PHOTO-2024-01-10-21-19-15 (1).jpg');
+    height: 488px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider11_img {
+    width: 100%;
+    float: left;
+    background-image: url('../images/Picture5.jpg');
+    height: 488px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider12_img {
+    width: 100%;
+    float: left;
+    background-image: url('../images/Picture6.jpg');
+    height: 488px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider13_img {
+    width: 100%;
+    float: left;
+    background-image: url('../images/PHOTO-2024-01-10-21-20-07.jpg');
+    height: 488px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .contact_taital {
     width: 100%;
